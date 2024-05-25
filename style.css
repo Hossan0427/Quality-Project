@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navber Section Start*/
+.navbar {
+    height: 80px;
+}
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+}
+
+.btn1 {
+    border: 1px solid #f58d17;
+    height: 50px;
+    width: 150px;
+    background-color: #f58d17;
+    color: #fff;
+    font-size: 17px;
+}
+
+.btn1:hover {
+    background: #fff;
+    color: black;
+}
+
+.nav-item a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3a3e42;
+}
+
+/* Navber Section End*/
+
+/* Carosul Section Start*/
+
+.carousel .carousel-item {
+    /* height: 100vh;
+    width: 100%;
+*/
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/carosul\ one.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+
+.slide-2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/carosul\ two.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+
+.slide-3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/carosul\ three.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+
+}
+
+.carousel-item h5 {
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.carousel-item p {
+    font-size: 20px;
+    margin: auto;
+    color: #fff;
+
+
+}
+
+.carousel-inner a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 35px;
+    background: #f58d17;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+
+.carousel-inner a:hover {
+    background-color: #fff;
+    color: #212529;
+    border: 1px solid #f58d17;
+}
+
+/* Carosul Section End*/
+
+/* Media Section*/
+
+@media only screen and (max-width: 600px) {
+    .carousel-item {
+        /* height: 80vh;
+        width: 100%; */
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+
+    }
+
+    .carousel-item h5 {
+        font-size: 33px;
+
+
+    }
+
+    .carousel-item p {
+        font-size: 18px;
+        color: #fff;
+
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    .navbar {
+        height: auto;
+    }
+
+}
+
+/* Media Section*/
+
+/* about Section Start*/
+
+.about-part {
+    /* width: 100%;
+    height: 100vh; */
+    background-color: #fff;
+}
+
+.about-part .divider {
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #f58d17;
+}
+
+.about-part img {
+    width: 450px;
+    height: 600px;
+}
+
+.btn2 {
+    border: 1px solid #f58d17;
+    height: 50px;
+    width: 150px;
+    background-color: #f58d17;
+    color: #fff;
+    font-size: 17px;
+}
+
+.btn2:hover {
+    background: #fff;
+    color: black;
+}
+
+.about-content p {
+    font-size: 18px;
+}
+
+/* about Section End*/
+
+#menu h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.#menu p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: #f58d17;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.card-body .statues {
+    color: #f58d17;
+}
+#menu .nav-pills .nav-link{
+   color: #212529;
+   font-weight: 500;
+}
+
+/*Features Section Start*/
+#features {
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/steak-one.jpg), lightgray 40% / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.features-heading h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    padding: 2%;
+}
+
+.features-heading P {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.features {
+    border: 1px solid #c2c0c0;
+    margin: 20px 0;
+    height: 400px;
+}
+
+.features-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #f58d17;
+    color: #fff;
+    place-items: center;
+    font-size: 28px;
+    display: inline-grid;
+}
+
+.features h5 {
+    font-size: 52px;
+    color: #fff;
+}
+
+.features p {
+    color: #fff;
+    font-size: 20px;
+}
+
+/*Features Section End*/
+
+/*Our team Section Start*/
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    width: 100%;
+
+}
+
+.team-member-contact h5 {
+    font-size: 25px;
+}
+
+.team-member-contact p {
+    font-size: 18px;
+}
+
+/*Our team Section End */
+
+/*Review Section Start*/
+#reviews {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/customer\ back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 120px 0px;
+    padding: 40px 10px;
+}
+
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text h4 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.intro-text p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-item {
+    position: relative;
+    float: left;
+    display: none;
+    width: 100%;
+    margin-right: -100%;
+    transition: 0.6s ease-in-out;
+    backface-visibility: hidden;
+}
+
+#reviews .review {
+    background-color: #ffffff21;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.review img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.review .statues {
+    color: #fff;
+}
+
+.review p {
+    font-size: 18px;
+}
+
+/*Review Section End*/
+
+/*Reservation Section start*/
+#reservation {
+    /* margin: 120px 0px; */
+    /* text-align: center; */
+}
+
+#resevation .form-control:focus {
+    box-shadow: none;
+    border-color: #f58d17;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    background-color: ;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+
+}
+
+.btn7 {
+    display: inline-block;
+    line-height: 1.5;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0%;
+    padding: 18px 34px;
+    color: #fff;
+
+
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn7:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.btn-brand {
+    background-color: #f58d17;
+    border-color: #f58d17;
+}
+
+/*Reservation Section end*/
+
+/*level section Start*/
+
+.level-img {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.level-img img {
+    width: 100%;
+    height: 290px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.level-img:hover img {
+    transform: scale(1.1);
+}
+
+.insta-post {
+    text-decoration: none;
+    color: #f58d17;
+}
+
+.level-img .insta-post {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 26px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.level-img:hover .insta-post {
+    opacity: 1;
+}
+
+/*level section End*/
+
+/*Blog section Start*/
+#blog {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.blog-post {
+    background-color: #2222220a;
+    cursor: pointer;
+}
+
+.blog-post img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.blog-post-content a {
+    text-decoration: none;
+    color: #f58d17;
+    font-size: 18px;
+
+}
+
+.blog-post-content .title {
+    color: #67696b;
+}
+
+/*Blog section End*/
+
+/*Footer section Start*/
+footer img {
+    width: 80px;
+    height: 80px;
+    padd
+}
+
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+}
+
+footer h5 {
+    color: #fff;
+}
+
+footer hr {
+    color: rgb(218, 213, 213);
+}
+
+footer i{
+    color: #fff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+footer i:hover{
+    color: #f58d17;
+    cursor: pointer;
+
+}
+
+/*Footer section End*/
